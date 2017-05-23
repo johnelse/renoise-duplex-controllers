@@ -24,6 +24,22 @@ duplex_configurations:insert {
         grid = {
           group_name = "Slots",
         },
+        v_prev = {
+          group_name = "Move",
+          index = 1
+        },
+        v_next = {
+          group_name = "Move",
+          index = 2
+        },
+        h_prev = {
+          group_name = "Move",
+          index = 3
+        },
+        h_next = {
+          group_name = "Move",
+          index = 4
+        },
       },
     },
     Mixer = {
