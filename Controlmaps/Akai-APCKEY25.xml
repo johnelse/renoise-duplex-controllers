@@ -4,25 +4,76 @@
   <Description>Controlmap for Akai APC Key 25</Description>
   <Parameters>
     <Page>
-      <Column>
-        <Group name="Encoders" orientation="horizontal" columns="4">
-          <Param value="CC#48|Ch1" type="dial" name="Encoder #1"  maximum="127" minimum="0"/>
-          <Param value="CC#49|Ch1" type="dial" name="Encoder #2"  maximum="127" minimum="0"/>
-          <Param value="CC#50|Ch1" type="dial" name="Encoder #3"  maximum="127" minimum="0"/>
-          <Param value="CC#51|Ch1" type="dial" name="Encoder #4"  maximum="127" minimum="0"/>
+      <Row>
+        <Column>
+          <Group name="Slots" orientation="horizontal" columns="8">
+            <Param value="G#1|Ch1" type="button" name="Slot_1_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A-1|Ch1" type="button" name="Slot_2_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A#1|Ch1" type="button" name="Slot_3_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="B-1|Ch1" type="button" name="Slot_4_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C-2|Ch1" type="button" name="Slot_5_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C#2|Ch1" type="button" name="Slot_6_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D-2|Ch1" type="button" name="Slot_7_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D#2|Ch1" type="button" name="Slot_8_1" maximum="127" minimum="0" aspect="0.5"/>
 
-          <Param value="CC#52|Ch1" type="dial" name="Encoder #5"  maximum="127" minimum="0"/>
-          <Param value="CC#53|Ch1" type="dial" name="Encoder #6"  maximum="127" minimum="0"/>
-          <Param value="CC#54|Ch1" type="dial" name="Encoder #7"  maximum="127" minimum="0"/>
-          <Param value="CC#55|Ch1" type="dial" name="Encoder #8"  maximum="127" minimum="0"/>
-        </Group>
+            <Param value="C-1|Ch1" type="button" name="Slot_1_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C#1|Ch1" type="button" name="Slot_2_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D-1|Ch1" type="button" name="Slot_3_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D#1|Ch1" type="button" name="Slot_4_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="E-1|Ch1" type="button" name="Slot_5_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F-1|Ch1" type="button" name="Slot_6_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F#1|Ch1" type="button" name="Slot_7_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="G-1|Ch1" type="button" name="Slot_8_2" maximum="127" minimum="0" aspect="0.5"/>
 
-        <Group name="Transport" orientation="horizontal">
-          <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
-          <Param value="G-6|Ch1" type="button" name="Play/pause"     maximum="127" minimum="0"/>
-          <Param value="A-6|Ch1" type="button" name="Rec"            maximum="127" minimum="0"/>
-        </Group>
-      </Column>
+            <Param value="E-0|Ch1" type="button" name="Slot_1_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F-0|Ch1" type="button" name="Slot_2_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F#0|Ch1" type="button" name="Slot_3_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="G-0|Ch1" type="button" name="Slot_4_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="G#0|Ch1" type="button" name="Slot_5_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A-0|Ch1" type="button" name="Slot_6_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A#0|Ch1" type="button" name="Slot_7_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="B-0|Ch1" type="button" name="Slot_8_3" maximum="127" minimum="0" aspect="0.5"/>
+
+            <Param value="G#-1|Ch1" type="button" name="Slot_1_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A--1|Ch1" type="button" name="Slot_2_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="A#-1|Ch1" type="button" name="Slot_3_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="B--1|Ch1" type="button" name="Slot_4_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C-0|Ch1"  type="button" name="Slot_5_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C#0|Ch1"  type="button" name="Slot_6_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D-0|Ch1"  type="button" name="Slot_7_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D#0|Ch1"  type="button" name="Slot_8_4" maximum="127" minimum="0" aspect="0.5"/>
+
+            <Param value="C--1|Ch1" type="button" name="Slot_1_5" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C#-1|Ch1" type="button" name="Slot_2_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D--1|Ch1" type="button" name="Slot_3_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D#-1|Ch1" type="button" name="Slot_4_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="E--1|Ch1" type="button" name="Slot_5_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F--1|Ch1" type="button" name="Slot_6_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="F#-1|Ch1" type="button" name="Slot_7_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="G--1|Ch1" type="button" name="Slot_8_4" maximum="127" minimum="0" aspect="0.5"/>
+          </Group>
+        </Column>
+
+        <Column>
+          <Group name="Encoders" orientation="horizontal" columns="4">
+            <Param value="CC#48|Ch1" type="dial" name="Encoder #1"  maximum="127" minimum="0"/>
+            <Param value="CC#49|Ch1" type="dial" name="Encoder #2"  maximum="127" minimum="0"/>
+            <Param value="CC#50|Ch1" type="dial" name="Encoder #3"  maximum="127" minimum="0"/>
+            <Param value="CC#51|Ch1" type="dial" name="Encoder #4"  maximum="127" minimum="0"/>
+
+            <Param value="CC#52|Ch1" type="dial" name="Encoder #5"  maximum="127" minimum="0"/>
+            <Param value="CC#53|Ch1" type="dial" name="Encoder #6"  maximum="127" minimum="0"/>
+            <Param value="CC#54|Ch1" type="dial" name="Encoder #7"  maximum="127" minimum="0"/>
+            <Param value="CC#55|Ch1" type="dial" name="Encoder #8"  maximum="127" minimum="0"/>
+          </Group>
+
+          <Group name="Transport" orientation="horizontal">
+            <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
+            <Param value="G-6|Ch1" type="button" name="Play/pause"     maximum="127" minimum="0"/>
+            <Param value="A-6|Ch1" type="button" name="Rec"            maximum="127" minimum="0"/>
+          </Group>
+        </Column>
+      </Row>
     </Page>
   </Parameters>
 </Device>

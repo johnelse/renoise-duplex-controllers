@@ -19,6 +19,13 @@ duplex_configurations:insert {
   },
 
   applications = {
+    GridPie = {
+      mappings = {
+        grid = {
+          group_name = "Slots",
+        },
+      },
+    },
     Mixer = {
       mappings = {
         levels = {
