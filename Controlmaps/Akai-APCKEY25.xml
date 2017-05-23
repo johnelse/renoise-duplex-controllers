@@ -6,14 +6,14 @@
     <Page>
       <Column>
         <Group name="Encoders" orientation="horizontal" columns="4">
-            <Param value="CC#48|Ch1" type="dial" name="Encoder #1"  maximum="127" minimum="0"/>
-            <Param value="CC#49|Ch1" type="dial" name="Encoder #2"  maximum="127" minimum="0"/>
-            <Param value="CC#50|Ch1" type="dial" name="Encoder #3"  maximum="127" minimum="0"/>
-            <Param value="CC#51|Ch1" type="dial" name="Encoder #4"  maximum="127" minimum="0"/>
-            <Param value="CC#52|Ch1" type="dial" name="Encoder #5"  maximum="127" minimum="0"/>
-            <Param value="CC#53|Ch1" type="dial" name="Encoder #6"  maximum="127" minimum="0"/>
-            <Param value="CC#54|Ch1" type="dial" name="Encoder #7"  maximum="127" minimum="0"/>
-            <Param value="CC#55|Ch1" type="dial" name="Encoder #8"  maximum="127" minimum="0"/>
+          <Param value="CC#48|Ch1" type="dial" name="Encoder #1"  maximum="127" minimum="0"/>
+          <Param value="CC#49|Ch1" type="dial" name="Encoder #2"  maximum="127" minimum="0"/>
+          <Param value="CC#50|Ch1" type="dial" name="Encoder #3"  maximum="127" minimum="0"/>
+          <Param value="CC#51|Ch1" type="dial" name="Encoder #4"  maximum="127" minimum="0"/>
+          <Param value="CC#52|Ch1" type="dial" name="Encoder #5"  maximum="127" minimum="0"/>
+          <Param value="CC#53|Ch1" type="dial" name="Encoder #6"  maximum="127" minimum="0"/>
+          <Param value="CC#54|Ch1" type="dial" name="Encoder #7"  maximum="127" minimum="0"/>
+          <Param value="CC#55|Ch1" type="dial" name="Encoder #8"  maximum="127" minimum="0"/>
         </Group>
 
         <Group name="Transport" orientation="horizontal">
