@@ -22,7 +22,7 @@ duplex_configurations:insert {
     Mixer = {
       mappings = {
         levels = {
-          group_name = "Encoders_*",
+          group_name = "Encoders",
         },
       },
     },
