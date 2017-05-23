@@ -17,9 +17,9 @@
         </Group>
 
         <Group name="Transport" orientation="horizontal">
-          <Param value="A-5|Ch1" type="button" name="Control Button #3"  maximum="127" minimum="0"/>
-          <Param value="G-6|Ch1" type="button" name="Control Button #4"  maximum="127" minimum="0"/>
-          <Param value="A-6|Ch1" type="button" name="Control Button #5"  maximum="127" minimum="0"/>
+          <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
+          <Param value="G-6|Ch1" type="button" name="Play/pause"     maximum="127" minimum="0"/>
+          <Param value="A-6|Ch1" type="button" name="Rec"            maximum="127" minimum="0"/>
         </Group>
       </Column>
     </Page>
