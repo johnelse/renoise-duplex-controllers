@@ -9,7 +9,7 @@ duplex_configurations:insert {
 
   -- device properties
   device = {
-    class_name = nil,
+    class_name = "APCKEY25",
     display_name = "Akai-APCKEY25",
     device_port_in = "APC Key 25",
     device_port_out = "APC Key 25",
