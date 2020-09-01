@@ -59,6 +59,16 @@
         </Column>
 
         <Column>
+          <Group name="Triggers" orientation="vertical" column="1">
+            <Param value="A#5|Ch1" type="button" name="Trigger_1" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="B-5|Ch1" type="button" name="Trigger_2" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C-6|Ch1" type="button" name="Trigger_3" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="C#6|Ch1" type="button" name="Trigger_4" maximum="127" minimum="0" aspect="0.5"/>
+            <Param value="D-6|Ch1" type="button" name="Trigger_5" maximum="127" minimum="0" aspect="0.5"/>
+          </Group>
+        </Column>
+
+        <Column>
           <Group name="Encoders" orientation="horizontal" columns="4">
             <Param value="CC#48|Ch1" type="dial" name="Encoder #1"  maximum="127" minimum="0"/>
             <Param value="CC#49|Ch1" type="dial" name="Encoder #2"  maximum="127" minimum="0"/>

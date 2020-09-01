@@ -24,6 +24,9 @@ duplex_configurations:insert {
         matrix = {
           group_name = "Slots",
         },
+        triggers = {
+          group_name = "Triggers",
+        },
         prev_seq_page = {
           group_name = "Move",
           index = 1,
