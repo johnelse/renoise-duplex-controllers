@@ -22,9 +22,6 @@ function APCKEY25:__init(display_name, message_stream, port_in, port_out)
 
   self.allow_zero_velocity_note_on = true
 
-  -- define a default colorspace
-  self.colorspace = {1, 1, 1}
-
 end
 
 --------------------------------------------------------------------------------
@@ -36,10 +33,7 @@ function APCKEY25:output_boolean(pt,xarg,ui_obj)
 
   local value = nil
 
-  local color = self:quantize_color(pt.color)
-  -- use the local colorspace if it's available
-  local colorspace = xarg.colorspace or self.colorspace
-  if (colorspace[1]>1) then
+  if (xarg.group_name == "Slots") then
     -- clip launch buttons can have multiple colors
     local red = (pt.color[1]==0xff)
     local green = (pt.color[2]==0xff)
