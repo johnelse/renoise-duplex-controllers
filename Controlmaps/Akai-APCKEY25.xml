@@ -97,25 +97,29 @@
       </Row>
 
       <Row>
-        <ShiftOff:Group name="TrackSelect" orientation="horizontal">
-          <Param value="E-4|Ch1" type="button" name="Track_1" maximum="127" minimum="0"/>
-          <Param value="F-4|Ch1" type="button" name="Track_2" maximum="127" minimum="0"/>
-          <Param value="F#4|Ch1" type="button" name="Track_3" maximum="127" minimum="0"/>
-          <Param value="G-4|Ch1" type="button" name="Track_4" maximum="127" minimum="0"/>
-          <Param value="G#4|Ch1" type="button" name="Track_5" maximum="127" minimum="0"/>
-          <Param value="A-4|Ch1" type="button" name="Track_6" maximum="127" minimum="0"/>
-          <Param value="A#4|Ch1" type="button" name="Track_7" maximum="127" minimum="0"/>
-          <Param value="B-4|Ch1" type="button" name="Track_8" maximum="127" minimum="0"/>
-        </Group>
+        <Column>
+          <ShiftOff:Group name="TrackSelect" orientation="horizontal">
+            <Param value="E-4|Ch1" type="button" name="Track_1" maximum="127" minimum="0"/>
+            <Param value="F-4|Ch1" type="button" name="Track_2" maximum="127" minimum="0"/>
+            <Param value="F#4|Ch1" type="button" name="Track_3" maximum="127" minimum="0"/>
+            <Param value="G-4|Ch1" type="button" name="Track_4" maximum="127" minimum="0"/>
+            <Param value="G#4|Ch1" type="button" name="Track_5" maximum="127" minimum="0"/>
+            <Param value="A-4|Ch1" type="button" name="Track_6" maximum="127" minimum="0"/>
+            <Param value="A#4|Ch1" type="button" name="Track_7" maximum="127" minimum="0"/>
+            <Param value="B-4|Ch1" type="button" name="Track_8" maximum="127" minimum="0"/>
+          </Group>
+        </Column>
       </Row>
 
       <Row>
-        <ShiftOn:Group name="Move" orientation="horizontal">
-          <Param value="E-4|Ch1" type="button" name="Up"    maximum="127" minimum="0"/>
-          <Param value="F-4|Ch1" type="button" name="Down"  maximum="127" minimum="0"/>
-          <Param value="F#4|Ch1" type="button" name="Left"  maximum="127" minimum="0"/>
-          <Param value="G-4|Ch1" type="button" name="Right" maximum="127" minimum="0"/>
-        </Group>
+        <Column>
+          <ShiftOn:Group name="Move" orientation="horizontal">
+            <Param value="E-4|Ch1" type="button" name="Up"    maximum="127" minimum="0"/>
+            <Param value="F-4|Ch1" type="button" name="Down"  maximum="127" minimum="0"/>
+            <Param value="F#4|Ch1" type="button" name="Left"  maximum="127" minimum="0"/>
+            <Param value="G-4|Ch1" type="button" name="Right" maximum="127" minimum="0"/>
+          </Group>
+        </Column>
       </Row>
     </Page>
   </Parameters>
