@@ -66,6 +66,10 @@
             <Param value="C#6|Ch1" type="button" name="Trigger_4" maximum="127" minimum="0" aspect="0.5"/>
             <Param value="D-6|Ch1" type="button" name="Trigger_5" maximum="127" minimum="0" aspect="0.5"/>
           </Group>
+
+          <Group name="Stop">
+            <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
+          </Group>
         </Column>
 
         <Column>
@@ -82,7 +86,6 @@
           </Group>
 
           <Group name="Transport" orientation="horizontal">
-            <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
             <Param value="G-6|Ch1" type="button" name="Play/pause"     maximum="127" minimum="0"/>
             <Param value="A-6|Ch1" type="button" name="Rec"            maximum="127" minimum="0"/>
           </Group>

@@ -66,16 +66,16 @@ duplex_configurations:insert {
     Transport = {
       mappings = {
         stop_playback = {
-          group_name = "Transport",
+          group_name = "Stop",
           index = 1,
         },
         start_playback = {
           group_name = "Transport",
-          index = 2,
+          index = 1,
         },
         edit_mode = {
           group_name = "Transport",
-          index = 3,
+          index = 2,
         },
       },
     },
