@@ -20,6 +20,8 @@ function APCKEY25:__init(display_name, message_stream, port_in, port_out)
 
   MidiDevice.__init(self, display_name, message_stream, port_in, port_out)
 
+  self.allow_zero_velocity_note_on = true
+
   -- define a default colorspace
   self.colorspace = {1, 1, 1}
 
