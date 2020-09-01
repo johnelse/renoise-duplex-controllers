@@ -2,6 +2,9 @@
   <Name>Akai-APCKEY25</Name>
   <Author>nelsen</Author>
   <Description>Controlmap for Akai APC Key 25</Description>
+  <States>
+    <State name="ShiftOn"  value="D-7|Ch1" type="momentary" hide_when_inactive="true"/>
+  </States>
   <Parameters>
     <Page>
       <Row>
@@ -71,6 +74,10 @@
             <Param value="A-5|Ch1" type="button" name="Stop all clips" maximum="127" minimum="0"/>
             <Param value="G-6|Ch1" type="button" name="Play/pause"     maximum="127" minimum="0"/>
             <Param value="A-6|Ch1" type="button" name="Rec"            maximum="127" minimum="0"/>
+          </Group>
+
+          <Group name="Shift" orientation="horizontal">
+            <Param value="D-7|Ch1" type="button" name="Shift" maximum="127" minimum="0"/>
           </Group>
         </Column>
       </Row>
