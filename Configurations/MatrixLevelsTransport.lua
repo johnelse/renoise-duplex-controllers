@@ -4,7 +4,7 @@
 
 duplex_configurations:insert {
   -- configuration properties
-  name = "Levels + Transport",
+  name = "Matrix + Levels + Transport",
   pinned = true,
 
   -- device properties
