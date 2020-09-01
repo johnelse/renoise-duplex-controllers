@@ -19,27 +19,22 @@ duplex_configurations:insert {
   },
 
   applications = {
-    GridPie = {
+    Matrix = {
       mappings = {
-        grid = {
+        matrix = {
           group_name = "Slots",
         },
-        v_prev = {
+        prev_seq_page = {
           group_name = "Move",
-          index = 1
+          index = 1,
         },
-        v_next = {
+        next_seq_page = {
           group_name = "Move",
-          index = 2
+          index = 2,
         },
-        h_prev = {
-          group_name = "Move",
-          index = 3
-        },
-        h_next = {
-          group_name = "Move",
-          index = 4
-        },
+      },
+      options = {
+        follow_track = 1,
       },
     },
     Mixer = {
