@@ -83,7 +83,7 @@
       </Row>
 
       <Row>
-        <Group name="Move" orientation="horizontal">
+        <ShiftOn:Group name="Move" orientation="horizontal">
           <Param value="E-4|Ch1" type="button" name="Up"    maximum="127" minimum="0"/>
           <Param value="F-4|Ch1" type="button" name="Down"  maximum="127" minimum="0"/>
           <Param value="F#4|Ch1" type="button" name="Left"  maximum="127" minimum="0"/>
