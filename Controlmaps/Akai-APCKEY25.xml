@@ -3,7 +3,8 @@
   <Author>nelsen</Author>
   <Description>Controlmap for Akai APC Key 25</Description>
   <States>
-    <State name="ShiftOn"  value="D-7|Ch1" type="momentary" hide_when_inactive="true"/>
+    <State name="ShiftOff" value="D-7|Ch1" type="toggle" hide_when_inactive="true" active="true"/>
+    <State name="ShiftOn"  value="D-7|Ch1" type="toggle" hide_when_inactive="true"/>
   </States>
   <Parameters>
     <Page>
