@@ -37,6 +37,22 @@ duplex_configurations:insert {
         follow_track = 1,
       },
     },
+    TrackSelector = {
+      mappings = {
+        prev_track = {
+          group_name = "Move",
+          index = 3,
+        },
+        next_track = {
+          group_name = "Move",
+          index = 4,
+        },
+        select_track = {
+          group_name = "TrackSelect",
+          index = 1,
+        },
+      },
+    },
     Mixer = {
       mappings = {
         levels = {
