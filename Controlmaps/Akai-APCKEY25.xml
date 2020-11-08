@@ -119,6 +119,12 @@
           </Group>
         </Column>
       </Row>
+
+      <Row>
+        <Group name="Keyboard">
+          <Param value="|Ch2" type="keyboard" range="88" maximum="127" minimum="0"/>
+        </Group>
+      </Row>
     </Page>
   </Parameters>
 </Device>

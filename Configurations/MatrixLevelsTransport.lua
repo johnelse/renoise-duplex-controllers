@@ -79,6 +79,13 @@ duplex_configurations:insert {
         },
       },
     },
+    Keyboard = {
+      mappings = {
+        keys = {
+          group_name = "Keyboard",
+        },
+      },
+    },
   }
 }
 
