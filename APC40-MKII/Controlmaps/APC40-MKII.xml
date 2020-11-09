@@ -1,0 +1,162 @@
+<Device>
+  <Name>APC40-MKII</Name>
+  <Author>nelsen</Author>
+  <Description>Controlmap for Akai APC40 mkII</Description>
+  <Parameters>
+    <Page>
+      <Row>
+        <Column>
+          <Row>
+            <Group name="Pan" orientation="horizontal">
+              <Param value="CC#48|Ch1" type="dial" name="Pan_1" minimum="0" maximum="127"/>
+              <Param value="CC#49|Ch1" type="dial" name="Pan_2" minimum="0" maximum="127"/>
+              <Param value="CC#50|Ch1" type="dial" name="Pan_3" minimum="0" maximum="127"/>
+              <Param value="CC#51|Ch1" type="dial" name="Pan_4" minimum="0" maximum="127"/>
+              <Param value="CC#52|Ch1" type="dial" name="Pan_5" minimum="0" maximum="127"/>
+              <Param value="CC#53|Ch1" type="dial" name="Pan_6" minimum="0" maximum="127"/>
+              <Param value="CC#54|Ch1" type="dial" name="Pan_7" minimum="0" maximum="127"/>
+              <Param value="CC#55|Ch1" type="dial" name="Pan_8" minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="Slots" orientation="horizontal" columns="8">
+              <Param value="G#1|Ch1" type="button" name="Slot_1_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A-1|Ch1" type="button" name="Slot_2_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A#1|Ch1" type="button" name="Slot_3_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="B-1|Ch1" type="button" name="Slot_4_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C-2|Ch1" type="button" name="Slot_5_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C#2|Ch1" type="button" name="Slot_6_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D-2|Ch1" type="button" name="Slot_7_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D#2|Ch1" type="button" name="Slot_8_1" minimum="0" maximum="127" aspect="0.5"/>
+
+              <Param value="C-1|Ch1" type="button" name="Slot_1_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C#1|Ch1" type="button" name="Slot_2_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D-1|Ch1" type="button" name="Slot_3_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D#1|Ch1" type="button" name="Slot_4_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="E-1|Ch1" type="button" name="Slot_5_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F-1|Ch1" type="button" name="Slot_6_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F#1|Ch1" type="button" name="Slot_7_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="G-1|Ch1" type="button" name="Slot_8_2" minimum="0" maximum="127" aspect="0.5"/>
+
+              <Param value="E-0|Ch1" type="button" name="Slot_1_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F-0|Ch1" type="button" name="Slot_2_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F#0|Ch1" type="button" name="Slot_3_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="G-0|Ch1" type="button" name="Slot_4_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="G#0|Ch1" type="button" name="Slot_5_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A-0|Ch1" type="button" name="Slot_6_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A#0|Ch1" type="button" name="Slot_7_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="B-0|Ch1" type="button" name="Slot_8_3" minimum="0" maximum="127" aspect="0.5"/>
+
+              <Param value="G#-1|Ch1" type="button" name="Slot_1_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A--1|Ch1" type="button" name="Slot_2_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="A#-1|Ch1" type="button" name="Slot_3_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="B--1|Ch1" type="button" name="Slot_4_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C-0|Ch1"  type="button" name="Slot_5_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C#0|Ch1"  type="button" name="Slot_6_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D-0|Ch1"  type="button" name="Slot_7_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D#0|Ch1"  type="button" name="Slot_8_4" minimum="0" maximum="127" aspect="0.5"/>
+
+              <Param value="C--1|Ch1" type="button" name="Slot_1_5" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C#-1|Ch1" type="button" name="Slot_2_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D--1|Ch1" type="button" name="Slot_3_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D#-1|Ch1" type="button" name="Slot_4_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="E--1|Ch1" type="button" name="Slot_5_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F--1|Ch1" type="button" name="Slot_6_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="F#-1|Ch1" type="button" name="Slot_7_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="G--1|Ch1" type="button" name="Slot_8_4" minimum="0" maximum="127" aspect="0.5"/>
+            </Group>
+
+            <Group name="Triggers" orientation="vertical">
+              <Param value="A#5|Ch1" type="button" name="Trigger_1" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="B-5|Ch1" type="button" name="Trigger_2" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C-6|Ch1" type="button" name="Trigger_3" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="C#6|Ch1" type="button" name="Trigger_4" minimum="0" maximum="127" aspect="0.5"/>
+              <Param value="D-6|Ch1" type="button" name="Trigger_5" minimum="0" maximum="127" aspect="0.5"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="SelectTrack" orientation="horizontal">
+              <Param value="E-3|Ch1" type="button" name="TrackSelect_1" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch2" type="button" name="TrackSelect_2" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch3" type="button" name="TrackSelect_3" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch4" type="button" name="TrackSelect_4" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch5" type="button" name="TrackSelect_5" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch6" type="button" name="TrackSelect_6" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch7" type="button" name="TrackSelect_7" minimum="0" maximum="127"/>
+              <Param value="E-3|Ch8" type="button" name="TrackSelect_8" minimum="0" maximum="127"/>
+            </Group>
+
+            <Group name="SelectMaster">
+              <Param value="A-4|Ch1" type="button" Name="SelectMaster" minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="Levels" orientation="horizontal">
+              <Param value="CC#7|Ch1" type="fader" name="Level_1" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch2" type="fader" name="Level_2" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch3" type="fader" name="Level_3" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch4" type="fader" name="Level_4" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch5" type="fader" name="Level_5" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch6" type="fader" name="Level_6" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch7" type="fader" name="Level_7" minimum="0" maximum="127" orientation="vertical" size="3"/>
+              <Param value="CC#7|Ch8" type="fader" name="Level_8" minimum="0" maximum="127" orientation="vertical" size="3"/>
+            </Group>
+
+            <Group name="Master" orientation="horizontal">
+              <Param value="CC#14|Ch1" type="fader" name="Level_1" minimum="0" maximum="127" orientation="vertical" size="3"/>
+            </Group>
+          </Row>
+        </Column>
+
+        <Column>
+          <Row>
+            <Group name="BPM">
+              <Param value="E-7|Ch1" type="button" name="BPMDec" minimum="0" maximum="127"/>
+              <Param value="F-7|Ch1" type="button" name="BPMInc" minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="EffectName">
+              <Param type="label" name="DeviceName" size="4" aspect="0.25"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="EffectParameters" columns="4">
+              <Param value="CC#16|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#17|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#18|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#19|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#20|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#21|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#22|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+              <Param value="CC#23|Ch1" type="dial" name="EffectParameter_1" minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="EffectNavigation" columns="4">
+              <Param value="A#3|Ch1" type="pushbutton" name="PrevDevice" minimum="0" maximum="127"/>
+              <Param value="B-3|Ch1" type="pushbutton" name="NextDevice" minimum="0" maximum="127"/>
+              <Param value="C-4|Ch1" type="pushbutton" name="PrevBank"   minimum="0" maximum="127"/>
+              <Param value="C#4|Ch1" type="pushbutton" name="NextBank"   minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+
+          <Row>
+            <Group name="Bank">
+              <Param value="C#7|Ch1" type="button" name="Left"  minimum="0" maximum="127"/>
+              <Param value="A#6|Ch1" type="button" name="Up"    minimum="0" maximum="127"/>
+              <Param value="B-6|Ch1" type="button" name="Down"  minimum="0" maximum="127"/>
+              <Param value="C-7|Ch1" type="button" name="Right" minimum="0" maximum="127"/>
+            </Group>
+          </Row>
+        </Column>
+      </Row>
+    </Page>
+  </Parameters>
+</Device>
